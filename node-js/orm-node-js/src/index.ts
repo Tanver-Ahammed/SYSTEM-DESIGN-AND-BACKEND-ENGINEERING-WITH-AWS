@@ -2,7 +2,7 @@ import "reflect-metadata";
 import { AppDataSource } from "./data-source"
 
 import express from 'express';
-import { router as StudentRouter } from './router/Student';
+import { router as StudentRouter } from './router/User';
 
 const app = express();
 const port = 3000;
