@@ -9,4 +9,4 @@ docker run -d --name nginx --network lb -p 80:80 nginx:latest
 
 docker cp ./nginx.conf nginx:/etc/nginx/conf.d/default.conf 
 
-docker restart nginx    
+docker restart nginx
